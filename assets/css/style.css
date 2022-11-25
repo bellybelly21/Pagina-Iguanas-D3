@@ -1,0 +1,97 @@
+.body {
+margin: 0;
+background-color: black;
+color: white;
+}
+
+.header{
+margin-bottom: 15px;
+margin-top: 10px;
+font-size: 50px;
+text-align: center;
+font-family: Raleway medium;
+color: #FFFFFF;
+}
+
+.img_main {
+background-image: transparent url('img/photo-1516008805996-d2abb468cc9a.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.box_1{
+display: flexbox;
+justify-content: center;
+align-items: center;
+width: 75%;
+height: 350px;
+padding-inline-start: 150px;
+padding-inline-end: 150px;
+padding-block: 30px;
+}
+
+.img_1{
+float:right;
+padding: 1em 2em 0 10em;
+}
+
+.texto_1{
+text-align: left;
+size: 49%;
+font-family: Raleway light;
+padding-top: 3em;
+
+}
+
+.box_2{
+justify-content: center;
+align-items: center;
+height: 350px;
+background-color: #1E1A13;
+
+}
+.titulo_2{
+font-family: Raleway light;
+font-weight: 30;
+font-size: 40px;
+text-align: center;
+padding-top: 1px;
+}
+
+.table{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.td{
+font-family: Raleway light;
+text-align: center;
+font-size: 25px;
+}
+
+.tm{
+padding-inline: 200px;
+padding-bottom: 1em;
+}
+
+.imagenes{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-inline-start: 200px;
+padding-inline-end: 200px;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin-top: 4em;
+background-color: #1E1A13;
+}
+.texto_footer{
+font-family: Raleway light;
+font-size: 20px;
+}
